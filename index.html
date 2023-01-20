@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>language traslator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="wrapper">
+            <div class="text-input">
+                <textarea class="from-text" placeholder="Enter text" name="" id="" cols="30" rows="10"></textarea>
+                <textarea class="to-text" placeholder="Translator" readonly disabled name="" id="" cols="30"
+                    rows="10"></textarea>
+            </div>
+            <ul class="controls">
+                <li class="row from">
+                    <div class="icon">
+                        <i class="fas fa-volume-up"></i>
+                        <i class="fas fa-copy"></i>
+                    </div>
+                    <select>
+                        <!-- <option value="en-us">English</option>
+                        <option value="hi-in">Hindi</option>
+                        <option value="ne-np">Nepali</option> -->
+                    </select>
+                </li>
+                <li class="exhange"><i class="fas fa-exchange-alt"></i></li>
+
+                <li class="row to">
+                    <select>
+                        <!-- <option value="hi-in">Hindi</option>
+                        <option value="ne-np">Nepali</option>
+                        <option value="en-us">English</option> -->
+                    </select>
+                    <div class="icon">
+                        <i class="fas fa-volume-up"></i>
+                        <i class="fas fa-copy"></i>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <button>Translator Text</button>
+    </div>
+    <script src="js/countries.js"> </script>
+    <script src="js/script.js"> </script>
+</body>
+
+</html>
